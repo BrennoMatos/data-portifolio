@@ -1,21 +1,17 @@
-# Portfólio de Dados
+# Data Portifolio
 
-Repositório dedicado aos meus estudos e projetos em:
+Repository dedicated to my projects and studies in:
 
-- Ciência de Dados
-- Engenharia de Dados
-- SQL
-- Power BI
+- Data Science
+- Data Engineering
+- Data Base Management Systems
+- BI Tools and Analysis
 - Machine Learning
-- Python
 
-## Estrutura
+## Structure
 
-- projetos/
-- sql/
-- engenharia-dados/
-- certificados/
-
-## Sobre mim
-
-Engenheiro Químico com experiência em automação de processos e em transição para as áreas de Ciência e Engenharia de Dados.
+- business-inteligence/
+- certificates/
+- data-engineering/
+- database-management-system/
+- machine-learning/
