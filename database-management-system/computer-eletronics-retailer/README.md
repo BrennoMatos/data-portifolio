@@ -14,28 +14,28 @@ The project was designed to demonstrate practical knowledge of PostgreSQL by imp
 
 ## Main objectives include:
 
-Design a normalized relational database
-Implement business rules using constraints
-Manipulate transactional data
-Develop reusable PL/pgSQL functions
-Manage users, roles and permissions
-Apply transaction control
-Perform business-oriented analytical queries
-Demonstrate PostgreSQL administration concepts
-Business Scenario
+- Design a normalized relational database
+- Implement business rules using constraints
+- Manipulate transactional data
+- Develop reusable PL/pgSQL functions
+- Manage users, roles and permissions
+- Apply transaction control
+- Perform business-oriented analytical queries
+- Demonstrate PostgreSQL administration concepts
+- Business Scenario
 
 The database simulates an electronics retail company responsible for selling products supplied by multiple vendors and delivered through transport companies.
 
 ## The system manages:
 
-Customers
-Products
-Suppliers
-Sales Orders
-Salespersons
-Transport Companies
-Geographic Information
-Audit Records
+- Customers
+- Products
+- Suppliers
+- Sales Orders
+- Salespersons
+- Transport Companies
+- Geographic Information
+- Audit Records
 
 This structure enables both operational transaction processing and business analysis.
 
@@ -45,32 +45,34 @@ The relational model contains entities representing the core business processes.
 
 ## Main entities include:
 
-Customer
-Product
-Supplier
-Sales Order
-Order Items
-Salesperson
-Carrier
-City
-District
-Profession
-Nationality
+- Customer
+- Product
+- Supplier
+- Sales Order
+- Order Items
+- Salesperson
+- Carrier
+- City
+- District
+- Profession
+- Nationality
 
 ## The database enforces referential integrity through:
 
-Primary Keys
-Foreign Keys
-Unique Constraints
-Check Constraints
-Domains
-Sequences
-Technologies
-PostgreSQL
-SQL
-PL/pgSQL
-pgAdmin 4
-Repository Structure
+- Primary Keys
+- Foreign Keys
+- Unique Constraints
+- Check Constraints
+- Domains
+- Sequences
+
+## Technologies
+- PostgreSQL
+- SQL
+- PL/pgSQL
+- pgAdmin 4
+
+## Repository Structure
 computer-electronics-retailer/
 
 │
@@ -81,95 +83,96 @@ computer-electronics-retailer/
 ├── 05_business_analytics.sql
 ├── database_backup.sql
 └── README.md
-Features
-Database Modeling
-Entity Relationship Modeling
-Normalization
-Primary and Foreign Keys
-Domains
-Constraints
-Indexes
-Data Manipulation
+
+## Features
+## Database Modeling
+- Entity Relationship Modeling
+- Normalization
+- Primary and Foreign Keys
+- Domains
+- Constraints
+- Indexes
+- Data Manipulation
 
 ## The project demonstrates CRUD operations including:
 
-INSERT
-UPDATE
-DELETE
-ALTER TABLE
-SQL Queries
+- INSERT
+- UPDATE
+- DELETE
+- ALTER TABLE
+- SQL Queries
 
 ## Includes practical examples of:
 
-Filtering
-Sorting
-Aggregation
-GROUP BY
-HAVING
-CASE
-JOINs
-Subqueries
-UNION
-INTERSECT
-EXISTS
-PostgreSQL Features
+- Filtering
+- Sorting
+- Aggregation
+- GROUP BY
+- HAVING
+- CASE
+- JOINs
+- Subqueries
+- UNION
+- INTERSECT
+- EXISTS
+- PostgreSQL Features
 
 ## Advanced PostgreSQL resources implemented:
 
-Views
-Functions
-Procedures
-Triggers
-Sequences
-Transactions
-Savepoints
-Rollback
-Security
+- Views
+- Functions
+- Procedures
+- Triggers
+- Sequences
+- Transactions
+- Savepoints
+- Rollback
+- Security
 
 ## Implementation of database administration concepts including:
 
-Users
-Roles
-GRANT
-REVOKE
-Privilege Management
-Business Analytics
+- Users
+- Roles
+- GRANT
+- REVOKE
+- Privilege Management
+- Business Analytics
 
 ## Analytical SQL queries for business decision support:
 
-Sales Analysis
-Customer Analysis
-Product Performance
-Supplier Analysis
-Salesperson Ranking
-Revenue Analysis
-Average Ticket
-Time-based Analysis
-Window Functions
-Business Questions Answered
+- Sales Analysis
+- Customer Analysis
+- Product Performance
+- Supplier Analysis
+- Salesperson Ranking
+- Revenue Analysis
+- Average Ticket
+- Time-based Analysis
+- Window Functions
+- Business Questions Answered
 
 ## Examples of business questions addressed by the analytical queries:
 
-Who are the top customers by revenue?
-Which products generate the highest sales?
-Which suppliers provide the best-selling products?
-What is the average ticket value?
-Which salespersons achieve the highest performance?
-How do sales evolve over time?
-What are the best-selling product categories?
-Learning Outcomes
+- Who are the top customers by revenue?
+- Which products generate the highest sales?
+- Which suppliers provide the best-selling products?
+- What is the average ticket value?
+- Which salespersons achieve the highest performance?
+- How do sales evolve over time?
+- What are the best-selling product categories?
+- Learning Outcomes
 
 ## This project demonstrates knowledge in:
 
-Relational Database Modeling
-SQL Programming
-PostgreSQL Administration
-PL/pgSQL Development
-Data Integrity
-Transaction Management
-Database Security
-Business Analytics
-Future Improvements
+- Relational Database Modeling
+- SQL Programming
+- PostgreSQL Administration
+- PL/pgSQL Development
+- Data Integrity
+- Transaction Management
+- Database Security
+- Business Analytics
+- Future Improvements
 
 ## Technical Skills Demonstrated
 
@@ -189,10 +192,10 @@ Future Improvements
 
 ## Potential future enhancements include:
 
-Materialized Views
-Query Performance Optimization
-EXPLAIN ANALYZE examples
-Additional Window Functions
+- Materialized Views
+- Query Performance Optimization
+- EXPLAIN ANALYZE examples
+- Additional Window Functions
 
 Author
 
